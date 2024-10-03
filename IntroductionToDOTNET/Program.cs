@@ -1,7 +1,7 @@
 ﻿//#define CONSOLE_CLASS
 //#define STRING_OPERATIONS
-//#define GEOMETRY
-//#define HARD_CHESS
+#define GEOMETRY
+#define HARD_CHESS
 #define CHESS
 
 using System;
@@ -146,7 +146,7 @@ namespace IntroductionToDOTNET
 
 #if HARD_CHESS
 			Console.Write("Введите размер доски: ");
-			int n = Convert.ToInt32(Console.ReadLine());
+			/*int*/ n = Convert.ToInt32(Console.ReadLine());
 
 			for (int i = 0; i < n; i++)
 				for (int j = 0; j < n; j++)
@@ -160,7 +160,7 @@ namespace IntroductionToDOTNET
 
 #if CHESS
 			Console.Write("Введите размер доски: ");
-			int n = Convert.ToInt32(Console.ReadLine());
+			/*int*/ n = Convert.ToInt32(Console.ReadLine());
 			n++;
 
 			for (int i = 0; i <= n; i++)
