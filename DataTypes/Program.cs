@@ -1,5 +1,5 @@
 ﻿//#define DATA_TYPES
-#define FACTORIAL
+//#define FACTORIAL
 //#define CALCULATOR
 using System;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ namespace DataTypes
 	{
 		static readonly string delimiter = "\n---------------------------------------------------\n";
 		static void Main(string[] args)
-		{ 
+		{
 
 #if DATA_TYPES
 			Console.WriteLine("Hello DataTypes");
@@ -59,7 +59,7 @@ namespace DataTypes
 				Console.WriteLine(ex.Message);
 			} 
 #endif
-			
+
 #if FACTORIAL
 			Console.Write("Введите число: ");
 			int n = Convert.ToInt32(Console.ReadLine());
@@ -115,6 +115,8 @@ namespace DataTypes
 					break;
 			}
 #endif
+
+
 		}
 	}
 }
