@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc", "Calc\Calc.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{AF8CEA65-ECBF-47EE-84D2-3CB61AFC8DAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{046453B3-26A4-4985-B1E2-1DC5CBD6366D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AF8CEA65-ECBF-47EE-84D2-3CB61AFC8DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8CEA65-ECBF-47EE-84D2-3CB61AFC8DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8CEA65-ECBF-47EE-84D2-3CB61AFC8DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046453B3-26A4-4985-B1E2-1DC5CBD6366D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046453B3-26A4-4985-B1E2-1DC5CBD6366D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046453B3-26A4-4985-B1E2-1DC5CBD6366D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046453B3-26A4-4985-B1E2-1DC5CBD6366D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
